@@ -6,7 +6,7 @@
   
   --Heading-font:		Russo One;
   --Text-font:		Lato;  
-  max-width: 1400px;
+  --max-width: 1400px;
 }
 body {
   max-width: 1400px;
@@ -26,32 +26,47 @@ p {
 nav a {
   text-decoration: none;
 }
-.hero div {
-  position: relative;
+#logo {
+  border-radius: 25px;
+  width: 200px;
+  height:  auto;
 }
 .hero article {
   position: absolute;
-  width: 200px;
-  bottom: 5%;
-  right: 5%;
-  color: rgb(227, 209, 106);
-  background-color: rgb(160, 185, 219, .5);
+  right: 10%;
+  left: 10%;
+  top: 25%;
+
+  background-color: rgb(227, 209, 106, .5);
   border-radius: 10px;
   padding: 20px;
+  text-align:  center;
 
 }
 .hero img {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 25px;
 }
 .hero article img {
   width: 200px;
   height: auto;
+  float: right;
+  border-radius: 3px;
 }
 .hero h1 {
+  top: 5%;
   position: absolute;
-  bottom: 52%;
-  right: 50%;
-  font-size: 50px;
+  right: 10%;
+  left: 10%;
+  text-align: center;
+  font-size: 70px;
+}
+.hero p {
+  font-size: 20px;
+}
+.hero {
+  max-width: 1400px;
+  position: relative;
 }
