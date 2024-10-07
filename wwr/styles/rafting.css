@@ -9,6 +9,9 @@
   --Text-font:		Lato;  
   --max-width: 1400px;
 }
+body {
+  max-width: 1400px;
+}
 
 h1 {
   font-family: 'Russo One', sans-serif;
