@@ -70,3 +70,7 @@ nav a {
   max-width: 1400px;
   position: relative;
 }
+.pics img {
+  width: 30%;
+  height: auto;
+}
