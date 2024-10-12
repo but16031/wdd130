@@ -14,7 +14,7 @@ header {
 h1 {
     margin: 1rem;
     font-size: 1.5em;
-    color: rgb(4, 4, 40);
+    color: rgb(37, 41, 147);
     text-align: center;
 }
 form {
@@ -30,20 +30,20 @@ form {
     display: grid;
     grid-gap: 1em;
     margin: .5rem;
-    border: solid rgb(217, 221, 227);
+    border: solid rgb(200, 200, 200);
     padding: .5rem;
 }
 .questions {
     display: grid;
     grid-gap: 1em;
     margin: .5rem;
-    border: solid rgb(217, 221, 227);
+    border: solid rgb(200, 200, 200);
     padding: .5rem;
 }
 legend {
     padding: .5rem;
     font-size: 1.3em;
-    color: rgb(4, 4, 40);
+    color: rgb(37, 41, 147);
 }
 label, input, button, select, textarea {
     font-family: 'Merriweather Sans';
