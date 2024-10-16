@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Contact information for Rapid Adventures">
+    <meta name="author" content="Doug Butler">
+    <title>WDD130 | Rapid Adventures | Contact</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/LikeIt.jpg" alt="Rapid Adventures a white water rafting adventure experience">
+        <nav>
+            <ul class = "navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="company_info">
+            <div class="column1">
+                <h3>Company Information</h3>
+                <p class="company_info_label">Address:</p>
+                <p class="company_info_data" >Alpine Lakes, Oregon</p>
+                <p class="company_info_data">555 North 777 West</p>
+                <p class="company_info_label">Phone number:</p>
+                <p class="company_info_data">888-888-1234</p>
+                <p class="company_info_label">Email:</p>
+                <p class="company_info_data">contact@RapidAdventures.com</p>
+            </div>
+            <div class="google_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d37937.75054710623!2d-110.74157328278145!3d45.0301995751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20water%20rafting%20on%20the%20snake%20river!5e0!3m2!1sen!2sus!4v1728769367234!5m2!1sen!2sus" height="400" width="600"></iframe>
+            </div>
+        </section>
+
+        <section >
+            <h3 id="team">The Team</h3>
+            <div class="team">
+                <img src="images/ceo.jpg" alt="Lead Guide & Co-Founder">
+                <img src="images/safety coordinator.webp" alt="Safety Coordinator">
+                <img src="images/senior guide.jpg" alt="">
+                <img src="images/customer experience.jpg" alt="">
+                <p>Jake “River King” Matthews - Lead Guide & Co-Founder</p>
+                <p>Emily Carter - Safety Coordinator</p>
+
+                <p>Marco Diaz - Senior Guide</p>
+                <p>Sarah Nguyen - Customer Experience Manager</p>
+            </div>
+        </section>
+        <form>
+            <fieldset>
+                <legend>Send Us a Message</legend>
+
+                <div class="radio_buttons">
+                    <input type="radio" id="general" name="general" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    
+                    <input type="radio" id="reservation" name="reservation" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="suggestion" value="Website Suggestion">
+                    
+                    
+                    <label for="suggestion">Website Suggestion</label><br>
+                </div>
+                <div class="message">
+                    <label for="user_name">Name:</label>
+                    <label for="useremail">Email:</label>
+                    <input type="text" id="user_name" name="user_name">
+                    <input type="email" name="useremail" id="useremail">
+                    <label class="textarea"  for="message">Message:</label>
+                    <textarea class="textarea" name="message" id="message" rows="6" placeholder="Enter your inquiry here:"></textarea>
+                    <label class="textarea" for="subscribe">Please subscribe me to the monthly newsletter</label>                        
+                    <input id="subscribe" type="checkbox" name="pet" id="pet">
+                    <button class="textarea">Submit Poll</button>
+                </div>
+                                
+            </fieldset>
+            
+        </form>
+    </main>
+    <footer>
+        <p>©2024 | Rapid Adventures | Doug Butler</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook-48.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitterx-48.svg" alt="Twitter">
+            </a>            
+            <a href="https://instagram.com">
+                <img src="images/instagram-48.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

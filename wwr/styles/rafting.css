@@ -26,6 +26,13 @@ h2 {
   margin-bottom: 0px;
   font-size: 60px;
 }
+h3 {
+  font-family: 'Russo One', sans-serif;
+  color: #334F64;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
 p {
   font-family: Lato, sans-serif;
   margin: 0% 1em 1em 1em;
@@ -110,7 +117,7 @@ nav {
 }
 
 .navigation a:hover {
-	color: #E3D16A;
+	color: #A0B9DB;
 	font-weight: 700;
 	text-decoration: underline;
 }
@@ -139,9 +146,6 @@ nav {
 #pics {
   grid-column: 1/6;
 }
-.flex_pics {
-
-}
 footer {
 	display: grid;
 	grid-template-columns: 3fr 2fr;
@@ -153,4 +157,132 @@ footer {
   text-align: center;
   align-items: center;
   justify-items: center;
+}
+.company_info {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  grid-auto-rows: minmax(auto, 1fr);
+  padding: 2rem;
+  grid-gap: 2rem;
+}
+.google_map {
+  grid-column: 2; 
+}
+.company_info_label {
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 1.5rem;
+}
+.company_info_data {
+  margin: 0px 0px 0px 40px;
+}
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-left: 3rem;
+  justify-items: center;
+}
+.team img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover; 
+  border-radius: 1em;
+
+  object-position: center;
+}
+.team p {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+#team {
+  padding: 0rem 0rem 2rem 2rem;
+}
+legend {
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: #3b6c91;
+  margin-top: 5rem;
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 30px;
+  padding-left: 5rem;
+}
+fieldset {
+  border: none;
+  color: #3b6c91;
+}
+.radio_buttons {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 0%;
+  margin: 0%;
+  border: 0cm;
+  font-family: Lato, sans-serif;
+  margin: 0% 1em 1em 1em;
+  font-size: 20px;
+}
+.radio_buttons input {
+  justify-self: right;
+  padding-right: 0rem;
+  margin-right: .5rem;
+}
+.radio_buttons label {
+  justify-self: left;
+}
+.message {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 3fr;
+  padding: 0%;
+  margin: 0%;
+  border: 0cm;
+  font-family: Lato, sans-serif;
+  margin: 0% 1em 1em 1em;
+  font-size: 20px;
+  justify-items: left;
+  padding-left: 20rem;
+  width: 800px;
+  
+}
+
+.message label {
+  justify-self: left;
+  padding-top: 1rem;
+}
+.message input {
+  width: 90%;
+  height: auto;
+}
+
+.textarea {
+  grid-column: 1 / span 2;
+}
+.message textarea {
+  width: 95%;
+}
+#subscribe {
+  justify-self: left;
+  padding-left: 0px;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-top: 1.2rem;
+}
+button:hover {
+  background-color: rgb(137, 179, 238);
+  color: black;
+}
+button {
+  margin: 1rem;
+  width: 120px;
+  justify-self: left;
+  background-color: rgb(49, 92, 233);
+  border-radius: 5%;
+  border: none;
+  padding: 1rem;
+  color: white;
+  margin-left: 20rem;
 }
